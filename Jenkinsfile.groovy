@@ -1,7 +1,7 @@
 @Library("jenkins--shared-library") _
 pipeline {
     agent{
-        label 'master'
+        label 'build'
     }
     stages {
         stage("Hello World") {
