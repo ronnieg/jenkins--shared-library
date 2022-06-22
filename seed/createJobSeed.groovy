@@ -1,5 +1,5 @@
 package seed
-import Hello
+import seed.Hello
 
 Hello.createJob(this, 'HELLO_LIBRARY')
 
