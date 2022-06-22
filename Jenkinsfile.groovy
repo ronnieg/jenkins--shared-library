@@ -9,5 +9,10 @@ pipeline {
                 helloWorld()
             }
         }
+        stage("Hello Name and day of the week") {
+            steps {
+                helloNameDayOfWeek("Egor", "Wednesday")
+            }
+        }
      }
 }
