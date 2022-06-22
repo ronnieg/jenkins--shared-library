@@ -1,5 +1,5 @@
 #!groovy
-def deploy () {
+def = call() {
     if ("${params.Env}" == "Dev") {
         stage('deploy_dev') {
             node('master') {
