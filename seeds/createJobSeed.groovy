@@ -1,1 +1,3 @@
-GetName.createJob(this, 'GET_FIRST_NAME')
+import Hello
+
+Hello.createJob(this, 'HELLO_LIBRARY')

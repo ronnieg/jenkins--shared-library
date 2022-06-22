@@ -9,11 +9,6 @@ static createJob(def dslFactory, def name) {
 
         label "build"
 
-        wrappers {
-            preBuildCleanup()
-            buildName('name: ${Env.NAME}')
-        }
-
         steps {
             shell("echo 'Hello Vasya'")
         }

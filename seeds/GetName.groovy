@@ -8,11 +8,6 @@ class GetName {
 
             label "build"
 
-            wrappers {
-                preBuildCleanup()
-                buildName('nam: ${Env.NAME}')
-            }
-
             steps {
                 shell("Hello ${Env.Name}")
             }
