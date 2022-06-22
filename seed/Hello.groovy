@@ -1,3 +1,5 @@
+package seed
+
 class Hello {
     static createJob(def dslFactory, def name) {
         dslFactory.freeStyleJob(name) {
