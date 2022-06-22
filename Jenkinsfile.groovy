@@ -14,5 +14,10 @@ pipeline {
                 helloNameDayOfWeek("Egor", "Wednesday")
             }
         }
+        stage("Hello Wordl with Map") {
+            steps {
+                helloWithMap(name: "Egor", dayOfWeek: "Wednesday")
+            }
+        }
      }
 }
