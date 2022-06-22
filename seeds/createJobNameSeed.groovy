@@ -15,7 +15,7 @@ static createJob(def dslFactory, def name) {
         }
 
         steps {
-            shell("Hello ${params.NAME}")
+            shell("echo 'Hello Vasya'")
         }
 
         publishers {
