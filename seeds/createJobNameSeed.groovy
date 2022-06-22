@@ -11,11 +11,11 @@ static createJob(def dslFactory, def name) {
 
         wrappers {
             preBuildCleanup()
-            buildName('nam: ${Env.NAME}')
+            buildName('name: ${Env.NAME}')
         }
 
         steps {
-            shell("Hello ${Env.Name}")
+            shell("Hello ${params.NAME}")
         }
 
         publishers {
